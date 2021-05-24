@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4290435865931387250}
   - component: {fileID: 8708666251347405963}
   m_Layer: 7
-  m_Name: Roger
+  m_Name: Big boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4a273042c01c5f748a9329b12c64c220, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e77828ad7b749c84ab27b5606c281977, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,16 +127,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df790a7f7aa1b0649ad91d0989b94f2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 300
-  scoreValue: 150
-  mintTimeBetweenShots: 0.2
-  maxtTimeBetweenShots: 3
-  projectile: {fileID: 760151864845285494, guid: 59061decff06c8a4abb7e6dcd98a2761, type: 3}
-  projectileSpeed: 10
+  health: 600
+  scoreValue: 450
+  mintTimeBetweenShots: 1
+  maxtTimeBetweenShots: 2
+  projectile: {fileID: 760151864845285494, guid: a2b53a644da180f44b0b45dae006ce3a, type: 3}
+  projectileSpeed: 3
   deathVFX: {fileID: 1834576512256905988, guid: 732f0d48162dcb540b3b2bb41ad1c579, type: 3}
   durationOfExplosion: 1
   deathSound: {fileID: 8300000, guid: 5d3e752f098fb7e41a33b1211ac38e85, type: 3}
-  shootSound: {fileID: 8300000, guid: 2a2162289addfef45b62b3dad7b12642, type: 3}
+  shootSound: {fileID: 8300000, guid: 372df72f9190b9840b4e98fc3b0e8e0b, type: 3}
   deathSoundVolume: 0.75
   shootSoundVolume: 0.5
 --- !u!50 &4290435865931387250

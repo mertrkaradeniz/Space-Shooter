@@ -111,8 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df790a7f7aa1b0649ad91d0989b94f2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  shotCounter: 0
+  health: 200
+  scoreValue: 150
   mintTimeBetweenShots: 0.2
   maxtTimeBetweenShots: 3
   projectile: {fileID: 760151864845285494, guid: 59061decff06c8a4abb7e6dcd98a2761, type: 3}

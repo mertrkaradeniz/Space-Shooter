@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int scoreValue = 150;
     
     [Header("Shooting")]
-    [SerializeField] float shotCounter;
+    float shotCounter;
     [SerializeField] float mintTimeBetweenShots = 0.2f;
     [SerializeField] float maxtTimeBetweenShots = 3f;
     [SerializeField] GameObject projectile;
